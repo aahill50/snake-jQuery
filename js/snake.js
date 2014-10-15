@@ -42,9 +42,6 @@
     if (typeof dir === "string") {
       this.dir = dir;
     }
-    else {
-      alert("GOING THE WRONG WAY!");
-    }
   };
 
   Snake.prototype.containsPos = function (pos) {
