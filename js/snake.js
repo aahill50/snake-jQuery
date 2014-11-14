@@ -118,8 +118,9 @@
   Board.prototype.spawnApple = function (appleness) {
     if (appleness) {
     do {
-      var posX         = Math.floor(Math.random() * this.size);
-      var posY         = Math.floor(Math.random() * this.size);
+      var posX = Math.floor(Math.random() * this.size);
+      var posY = Math.floor(Math.random() * this.size);
+			
       if (this.isEmpty([posX, posY])) {
         var appleCoord = new Coord([posX, posY]);
         this.apples.push(new Apple(this, appleCoord));

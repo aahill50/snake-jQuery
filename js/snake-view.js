@@ -38,7 +38,7 @@
         if (this.board.snake.isHead([j,i])) {
           $game.children().last().append(
             "<div class='cell snake head' data-id='" + j + "'>" +
-            "<img class='snakehead' src='../css/Solid_Snake2.png'></div>"
+            "<img class='snakehead' src='css/Solid_Snake2.png'></div>"
           );
         } else if (this.board.snake.containsPos([j,i])) {
           $game.children().last().append(
@@ -47,7 +47,7 @@
         } else if (this.board.hasApple([j,i])) {
           $game.children().last().append(
             "<div class='cell apple' data-id='" + j + "'>" +
-            "<img class= 'box' src='../css/cardboard-box-icon.jpg' ></div>"
+            "<img class= 'box' src='css/cardboard-box-icon.png' ></div>"
           );
         } else {
         $game.children().last().append(

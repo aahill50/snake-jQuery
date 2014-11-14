@@ -5,7 +5,7 @@ html, body {
 }
 
 .row {
-  opacity: .8;
+/*  opacity: .8;*/
 }
 
 .game {
@@ -65,11 +65,13 @@ body {
 .apple {
   width: 35px;
   height: 35px;
-  background: #ff0000;
+/*  background: #ff0000;*/
   border-radius: 50%;
 }
 .snake.head {
-  background: url('Solid_Snake2.jpg') no-repeat 20px 50px;
+	background: url('Solid_Snake2.png') no-repeat 20px 50px;
+/*	background-color: #25abcd;*/
+/*  background: url('css/Solid_Snake2.jpg') no-repeat 20px 50px;*/
   background-size: cover;
 
 }
